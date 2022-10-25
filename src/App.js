@@ -1,11 +1,15 @@
 import './App.css';
-import AboutUs from "./pages/aboutUs/AboutUs";
+import User1 from "./components/user1/User1";
+import User2 from "./components/user2/User2";
+import MessageButton from "./components/mesageButton/MessageButton";
 
 const App = () => {
-  const text = {title: "hello", subtitle: "lorem lorem lorem"}
+  const user = {name: "Anna", age: 19}
   return(
     <div className="App">
-      <AboutUs text={text}/>
+      <User1 user={user}/>
+      <User2 user={user}/>
+      <MessageButton message='Hello world'/>
     </div>
   );
 }
