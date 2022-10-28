@@ -1,3 +1,11 @@
-.App {
+.center{
+  display: block;
   text-align: center;
+  margin: 0 auto;
+}
+
+.hide{display: none}
+
+.btn{
+  cursor: pointer;
 }
