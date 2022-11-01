@@ -6,8 +6,7 @@ const UsersList = ({users,getUserInfo}) => {
           <li>
             {`${user.name} > `}
             <button onClick={getUserInfo}
-                    data-id={user.id}
-                    className='btn'>
+                    data-id={user.id}>
               Show info</button>
           </li>
         </>})}
