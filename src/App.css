@@ -9,3 +9,16 @@
 .btn{
   cursor: pointer;
 }
+
+.flex-evenly{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul{
+  text-align: start;
+}
+
+li + li{
+  margin-top: 10px;
+}
